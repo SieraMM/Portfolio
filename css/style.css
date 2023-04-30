@@ -162,15 +162,14 @@ a {
     width: 100px;*/
 }
 
-.marquee p{
+.marquee {
     /*list-style-type: none;*/
     background-color: #4152A5;
     border-bottom: 5px solid #181e3f;
     color: #F5F4EF;
-    font-size: 35px;
-    font-weight: 100;
+    overflow:hidden;
     height: 75px;
-    line-height: 75px;
+    
     text-align: center;
     text-transform: uppercase;
   
@@ -183,6 +182,10 @@ a {
         width: 100%;
         display: flex;
     
+}
+.tools p {
+    font-size: 2rem;
+    line-height:15px;
 }
 .tools> *{
     white-space:nowrap;
@@ -199,11 +202,8 @@ a {
 }
 
 .work_scroll {
-    border: 2px solid red;
     display: flex; 
-    /* display:inline-flex fixes the card size
-     but makes the card move off the screen
-    might want to use bootstrap */
+
     align-items: flex-start;
     justify-content: flex-start;
     overflow-x: auto;
@@ -232,17 +232,7 @@ a {
 
 }
 
-
-/*.secondary_flow img {
-    max-height: 300px;
-    padding-right: 200px;
-    padding-left: 200px;
-}  the cellphone immage is so funky. might need this code*/
-
-
-
 .flow_text {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
@@ -255,7 +245,7 @@ a {
     border-radius: 0px 0px 50px 50px;
 }
 .flow_img{
-    border: 2px solid red;
+    
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -264,10 +254,6 @@ a {
     margin: auto;
 
 }
-/*.flow_img img{
-    width: 500px;
-    height: auto;
-}*/
 
 .learn_more {
     position: absolute;
