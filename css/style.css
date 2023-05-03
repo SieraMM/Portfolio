@@ -1,7 +1,7 @@
 /* .dropdown-item:focus, .dropdown-item:hover */
 body {
     background-color: #F5F4EF;
-    color: #001629;
+    color: #020901;
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 0px;
 }
@@ -21,47 +21,36 @@ p {
     font-size: 17px;
     font-weight: 200;
 }
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 3px solid #181E3F;
-    margin-top: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 75px;
-    
+.customNav{
+    position:fixed;
+    width: 100%;
+    background-color: #4776DF !important;
+    z-index: 10;
 }
-
-.logo {
-    display: flex;
-    align-items: baseline;
-    width: 100px;
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
 }
-
-.right {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 25px;
-    align-items: center;
-    width: 93%;
+.navbar-brand img{
+    padding-right: 15px;
+    width: 65px;
 }
-
-a {
-    margin-right: 5%;
+.nav-item{
+    margin: 0px 15px;
 }
-
-.resume a {
-    margin-right: 2%;
+.dropdown-menu{
+    background-color:#F5F4EF;
 }
-
-
-
-.darkmode {
-    color: #4152A5;
-    border: 3px solid #4152A5;
-    background-color: #F5F4EF;
+.dropdown-item:focus, .dropdown-item:hover {
+    color:#001629;
+    text-decoration: none;
+    background: #002140;
+}
+.customNav a {
+    color: #001629;
+}
+.navCTA{
+    font-size: 15px;
 }
 
 
@@ -71,9 +60,9 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 7px;
-    margin-bottom: 25px;
+    border-top: 2px solid #020901;
     margin-right: inherit;
+    background-color: #51A296 ;
     
 }
 
@@ -93,36 +82,40 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
-    text-align: center;
+    text-align: left;
 }
 
 
 .center p {
-    text-align:center;
+    text-align:left;
     font-weight: 100;
     font-size: 27px;
+    line-height: 34px;
 }
 .btn {
     position: relative;
     border-radius: 100px;
     border: 3px solid #181E3F;
-    background-color: #4152A5;
+    background-color: #F8F991;
     box-shadow: 4px 5px 0px #181E3F;
-    color: #F5F4EF;
+    color: #020901;
     padding: 15px;
     font-weight: 600;
     width: 160px;
-    height: 44px; 
+    height: 54px; 
     text-align: center;
-    line-height: 44px;
-    font-size: 25px;
-    overflow: hidden;
+    line-height: 15px;
+    font-size: 21px;
+    overflow:hidden;
+    
 
 }
 .space-out{
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .btn span{
     position: relative;
@@ -164,12 +157,11 @@ a {
 
 .marquee {
     /*list-style-type: none;*/
-    background-color: #4152A5;
+    background-color: #BC98E8;
     border-bottom: 5px solid #181e3f;
-    color: #F5F4EF;
+    color: #2A445E;
     overflow:hidden;
-    height: 75px;
-    
+    height: 70px;
     text-align: center;
     text-transform: uppercase;
   
@@ -185,7 +177,7 @@ a {
 }
 .tools p {
     font-size: 2rem;
-    line-height:15px;
+    line-height: 60px;
 }
 .tools> *{
     white-space:nowrap;
@@ -260,13 +252,6 @@ a {
     z-index: 1;
     left: 400px;
     bottom: 20px;
-    margin: auto;
-    height: 28px;
-    width: 145px;
-    text-align: center;
-    line-height: 28px;
-    font-size: 25px;
-    font-weight: 200;
 
 }
 
@@ -291,28 +276,31 @@ a {
 
 
 .footer {
-    position: relative;
-    background-color: #4152A5;
-    color: #F5F4EF;
-    height: 462px;
+    margin-top: 50px;
+    background-color: #4776DF;
+    color: #020901;
+    height: 150px;
+    width: 100%;
 }
 
 .upperline {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 5%;
-    margin-top: 10%;
-    padding-top: 20px;
-    height: 75px;
-    border-bottom: 2px solid #F5F4EF;
-
+    margin:auto;
+    padding-left: 50px;
+    
 }
+.upperline h1{
+    size: 20px;
+}
+
 
 .links {
     display: flex;
     justify-content: space-around;
+    margin-left: 60%;
+    font-weight: 200;
 }
 
 .links a {
@@ -320,10 +308,10 @@ a {
     font-size: 25px;
 }
 
-.lower_line {
+/*.lower_line {
     display: flex;
     flex-direction: column;
-    margin-left: 8%;
+    margin-left: 50px;
     margin-top: 20px;
     height: 200px;
    
@@ -342,21 +330,10 @@ a {
 }
 
 .connection {
-    margin-bottom: -15px;
-}
-.view_work{
-    position: absolute;
-    left: 76%;
-    bottom: 40%;
-    height: 44px;
-    width: 160px;
-    text-align: center;
-    line-height: 44px;
-    font-size: 25px;
-    background-color: #F5F4EF;
-    color: #181e3f;
+    size: 40px;
 }
 
+*/
 
 /* .github .linkedin img{
     width: 40px;
