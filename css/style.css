@@ -25,11 +25,16 @@ p {
     position:fixed;
     width: 100%;
     background-color: #4776DF !important;
+    
     z-index: 10;
 }
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
+}
+.bg-primary{
+    font-size: 20px;
+    font-weight: 200;
 }
 .navbar-brand img{
     padding-right: 15px;
@@ -37,12 +42,13 @@ p {
 }
 .nav-item{
     margin: 0px 15px;
+    
 }
 .dropdown-menu{
     background-color:#F5F4EF;
 }
 .dropdown-item:focus, .dropdown-item:hover {
-    color:#001629;
+    color: #F5F4EF !important;;
     text-decoration: none;
     background: #002140;
 }
@@ -248,7 +254,7 @@ p {
 }
 
 .learn_more {
-    position: absolute;
+    position: absolute; 
     z-index: 1;
     left: 400px;
     bottom: 20px;
@@ -278,8 +284,8 @@ p {
 .footer {
     margin-top: 50px;
     background-color: #4776DF;
-    color: #020901;
-    height: 150px;
+    color: #F5F4EF;
+    height: 245px;
     width: 100%;
 }
 
@@ -288,25 +294,60 @@ p {
     justify-content: flex-start;
     align-items: center;
     margin:auto;
-    padding-left: 50px;
     
 }
-.upperline h1{
-    size: 20px;
+.f-dis{
+    padding-left: 50px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    border-bottom: 3px solid #f5f4ef;
+    width: 100%;
 }
-
-
-.links {
+.lower_line{
     display: flex;
-    justify-content: space-around;
-    margin-left: 60%;
-    font-weight: 200;
+    padding-top: 10px;
+    padding-left:50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.lower-left{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.short-me{
+    width: 100%;
+}
+.social-media{
+    margin-top: 30px;
+}
+.copyright{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
 }
 
-.links a {
-    padding-right: 15%;
-    font-size: 25px;
+
+.ux-work{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 150px;   
 }
+.ux-work span{
+    font-weight: 400;
+}
+.ux-work ul{
+    list-style-type: none;
+}
+.ux-work li:hover{
+    text-decoration: underline;
+}
+
+
+
+
 
 /*.lower_line {
     display: flex;
