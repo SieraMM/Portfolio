@@ -14,20 +14,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar position-static navbar-expand-lg navbar-dark bg-primary customNav">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light customNav">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -44,51 +43,77 @@
         </div>
     </nav>
     <div class=" container eye-popper">
-    
-    <div class="d-flex justify-content-between align-items-center length">
-        <span class="center_blurb"> <h3><b>Siera Meaux </b>is a UX designer and Jack of all Trades who just wants to make joyful products. </h3></span>
-    
-             <img src="/images/profile-image.svg" style="width: 25%;">       
-    </div>
 
-    <h2> My Recent Work</h2>
+        <div class="d-flex justify-content-between align-items-center length">
+            <span class="center_blurb">
+                <h3><b>Siera Meaux </b>is a UX designer and Jack of all Trades who just wants to make joyful products.
+                </h3>
+            </span>
 
-    <div class="d-flex justify-content-between align-items-center capsule">
-        <div>
-            <img src="images/iphone1 1.png" alt="i-phone mockup" style="height: 394; width: 213;">
-            <img src="images/iphone2 1.png" alt="i-phone mockup" style="height: 394; width: 213;">
+            <img src="/images/profile-image.svg" style="width: 25%;">
         </div>
-        <div class=" d-flex flex-column">
-            <span> The Kindful App</span>
-            <span> Spreading Kindness and Community</span>
+
+        <div class="d-flex justify-content-center heading">
+            <span class=" title">My Recent Work</span>
         </div>
-    </div>
 
-
-    <div class="d-flex justify-content-between  align-items-center capsule">
-        <div> <img src="images/Art pride mock up.svg" alt="web design mockup" style="height: 279; width: 492.88;">
+        <div class="d-flex justify-content-between align-items-center capsule">
+            <div class="backBlue">
+                <img src="images/iphone1 1.png" class="img-fluid" style= "height: 250px" alt="i-phone mockup">
+                <img src="images/iphone2 1.png" class="img-fluid" style= "height: 250px" alt="i-phone mockup">
+            </div>
+            <div class=" d-flex flex-column">
+                <span class="title"> The Kindful App</span>
+                <span class="subTitle"> Spreading Kindness and Community</span>
+            </div>
         </div>
-        <div class=" d-flex flex-column">
-            <span> NJ Arts ReDesign</span>
-            <span> A desktop and tablet reimagine of an NJ staple</span>
+
+
+        <div class="d-flex justify-content-between  align-items-center capsule">
+            <div class="container d-flex backBlue">
+                <div class="row sideSpace">
+                    <div class="col-sm-auto topSpace">
+                        <img src="/images/AP HOME.svg" class="img-fluid" >
+                    </div>
+                    <div class=" col-sm-auto topSpace">
+                        <img src="images/AP CIMP.svg" class="img-fluid" >
+                    </div>
+                </div>
+                <div class="row sideSpace">
+                    <div class=" col-sm-auto ">
+                        <img src="images/AP COMM.svg" class="img-fluid" >
+                    </div>
+                    <div class=" col-sm-auto">
+                        <img src="images/AP OPP.svg"class="img-fluid" >
+                    </div>
+                </div>
+            </div>
+            
+            <div class=" d-flex flex-column">
+                <span class="title"> NJ Arts ReDesign</span>
+                <span class="subTitle"> A desktop and tablet reimagine of an NJ staple</span>
+            </div>
         </div>
-    </div>
-
-    <div class="d-flex justify-content-between align-items-center capsule">
-        <div> <img src="images/MacBook Pro 16 inch Right View Mockup.png" alt="Portfolio mockup" style="height: 524; width: 398">
-        </div>
-        <div class=" d-flex flex-column">
-            <span> My Portfolio</span>
-            <span> Building out my first website from scratch</span>
-        </div>
-    </div>
-</div>
-
-
-
  
+
+    <div class="d-flex justify-content-between align-items-center capsule">
+        <div class="backBlue"> <img src="images/Group 36.png" class="img-fluid" alt="Portfolio mockup"
+                style="height: 200px;">
+        </div>
+        <div class=" d-flex flex-column">
+            <span class="title"> My Portfolio</span>
+            <span class="subTitle"> Building out my first website from scratch</span>
+        </div>
     </div>
-   
+    </div>
+    <div class="copyright"> All Rights Reserved 2023</div>
+
+
+
+
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
