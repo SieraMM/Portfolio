@@ -1,7 +1,7 @@
 /* .dropdown-item:focus, .dropdown-item:hover */
 body {
     background-image: url('../images/bkgrd-img.svg');
-    background-repeat: repeat-x;
+    background-repeat: repeat-y;
     background-size: cover;
     background-color: #F5FEFF; 
     color: #08091C;
