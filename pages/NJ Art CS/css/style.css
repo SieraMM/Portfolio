@@ -1,0 +1,158 @@
+
+    /* did 165 min of work */
+body {
+    background-image: url(../Images/bkgrd-img.svg);
+    background-repeat: repeat-y;
+    background-size:contain; 
+    /* will edit so instead of wavy lines the image is straight lines  */
+    background-color: #FAFEFF;  
+    color: #08091C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align:center;
+}
+h2{
+    text-align:center;
+    font-weight:500;
+    margin-top: 7%;
+}
+p{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+   
+    margin-top: 5%;
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+}
+li{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+h4{
+    margin-top:2%;
+    font-size: 24px;
+    
+}
+img{
+    margin-top: 4%;
+}
+figcaption{
+    font-style: italic;
+    font-size: 15px;;
+}
+.bodyLink{
+    
+    color:#7C87F2;
+}
+.bodyLink a:hover{
+    text-decoration: underline;
+}
+.bodyLink a:visited{
+    color: #000533;
+    text-decoration: underline;
+}
+
+.customNav{
+    position:fixed;
+    width: 100%;
+    background-color: #7C87F2 !important;
+    
+    z-index: 10;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.bg-primary{
+    font-size: 20px;
+    font-weight: 200;
+}
+.navbar-brand img{
+    padding-right: 15px;
+    width: 65px;
+}
+.nav-item{
+    margin: 0px 15px;
+    
+}
+.dropdown-menu{
+    background-color:#F5F4EF;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #F5F4EF !important;;
+    text-decoration: none;
+    background: #002140;
+}
+.customNav a {
+    color: #001629;
+}
+.navCTA{
+    font-size: 15px;
+}
+.jumbotron{
+    border-top: 4px solid #251236;
+    border-bottom: 3px solid #251236;
+    background-color: transparent;
+   
+    height: 700px;
+    margin:auto;
+}
+.margin{
+   margin-left: 2%;
+   margin-top: 4%;
+}
+.mocktron{
+    margin:auto;
+    max-width:100%;
+    
+
+}
+.infoDump{ 
+    /* gotta get this info dump center in the page always ... maybe a container  */
+
+    padding-top: 3%;
+    padding-left: 2%;
+   
+    background-color: rgb(188,152,232, 50%); 
+}
+
+.Overview{
+    padding-bottom: 1%;
+    max-width: 50%;
+    
+}
+.role{
+    text-align: left;
+    
+}
+#topper{
+    margin-left: 2%;
+}
+.spacingLeft{
+   margin-right: 10%;
+}
+.imgWidth{
+   width: 50%;
+   margin:auto;
+}
+.doubleImgWidth{
+    width:40%;
+    margin: auto;
+}
+.tinyImgWidth{
+    width: 30%;
+    margin:auto;
+
+}
+.cardColor{
+    background-color: #C4D6FB;
+}
+
+
+
