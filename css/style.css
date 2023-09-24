@@ -38,12 +38,12 @@ a:hover{
     font-weight: 500;
 }
 .subTitle{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 23px;
     color: rgba(0,0,0,65%);
 }
 .customNav{
-    width: 100%;
+    
     background-color: #AB92BF !important;
     
     z-index: 10;
@@ -99,7 +99,7 @@ a:hover{
 
 .capsule:hover{
     background-color: #AB92BF;
-    color:#08091C;
+    color:#08091C !important;
    
 }
 
@@ -110,6 +110,7 @@ a:hover{
 }
 .title{
     font-size: 36px;
+    color: #F5FEFF;
 }
 .backBlue{
     width: 50%;
@@ -121,9 +122,7 @@ a:hover{
 .sideSpace{
     margin-right: 2%;
 }
-.mobile{
-    display: none;
-}
+
 .copyright{
     margin-top:5%;
     margin-bottom: 2%;
@@ -140,11 +139,23 @@ a:hover{
 
 
 
-@media screen and (max-width: 600px) {
-    .mobile{
-        display: inline;
-    }
-    .capsule{
+
+
+@media all and (max-width: 989px) {
+
+    .hidden{
         display: none;
+    }
+ 
+    .title{
+        font-size: 30px;
+    }
+
+    .subTitle{
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .portfolioImg{
+        height: 100px;
     }
 }

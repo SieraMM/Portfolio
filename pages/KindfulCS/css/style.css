@@ -1,10 +1,10 @@
 
     /* did 275 min of work */
 body {
-    background-image: url(../Images/bkgrd-img.svg);
+     /*  background-image: url(../Images/bkgrd-img.svg);
     background-repeat: repeat-y;
     background-size:contain; 
-    /* will edit so instead of wavy lines the image is straight lines  */
+  will edit so instead of wavy lines the image is straight lines  */
     background-color: #FAFEFF;  
     color: #08091C;
     font-family: 'Open Sans', sans-serif;
@@ -61,7 +61,7 @@ figcaption{
 .customNav{
     position:fixed;
     width: 100%;
-    background-color: #7C87F2 !important;
+    background-color: #AB92BF !important;
     
     z-index: 10;
 }
