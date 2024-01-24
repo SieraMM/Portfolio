@@ -67,11 +67,14 @@ a:hover{
 }
 
 .length{
-
+    width: 100%;
     margin-top:10%;
     margin-bottom: 4%;
 } 
 .center_blurb{
+    width: 100%;
+}
+.icon-img{
     width: 50%;
 }
 .eye-popper{
